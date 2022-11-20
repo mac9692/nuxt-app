@@ -1,11 +1,16 @@
 <template>
   <div>
-    <h1>홈 페이지</h1>
+    <Nav />
+    <Nuxt />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: "default"
 }
 </script>
+
+<style scoped>
+
+</style>
